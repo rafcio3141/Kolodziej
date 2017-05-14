@@ -1,0 +1,129 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body {
+	background: url('back.jpg');
+}
+
+#price-table {
+	max-width:1400px;
+	margin: 100px auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.price_card {
+	max-width:400px;
+	background:#fff;
+	display: inline-table;
+	border-radius:10px;
+	margin:20px;
+	}
+	
+.header {
+	color:#fff;
+	border-radius:10px 10px 0 0;
+	
+	
+}
+.free .header {
+	background-image: linear-gradient(#66cc99, #92dbb6);
+	
+}
+
+.month .header {
+	background-image: linear-gradient(#11ff00, #92dbb6);
+}
+
+.month1 .header {
+	background-image: linear-gradient(#AAAAAA, #DDDDDD);
+}
+.price {
+	font-size: 60px;
+	font-weight:300;
+	display: block;
+	text-align:center;
+	padding:30px 0 10px;
+}
+.month {
+	font-size:18px;
+	font-weight: 300;
+}
+
+.month1 {
+	font-size:18px;
+	font-weight: 300;
+}
+
+.name {
+font-size: 15px;
+font-weight:700;
+display:block;
+text-align:center;
+padding: 0 0 30px;
+
+}
+
+.features {
+	list-style:none;
+	text-align:center;
+	color: #8a8a8a;
+	margin:0;
+	padding:0;
+}
+
+.features li {
+	margin:0 35px;
+	padding:20px 15px;
+	max-width:300px;
+}
+.features li:not(:last-child) {
+	border:1px solid #f2f2f2;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+}
+
+button {
+	color:#fff;
+	border:0;
+	height:60px;
+	width:100%;
+	display:block;
+	font-weight:700;
+	font-size:15px;
+	text-transform:uppercase;
+	margin:20px 0 0 0;
+	cursor:pointer;
+	border-radius:0 0 10px 10px;
+}
+
+.free button {
+	background:#92dbb6;
+	
+}
+
+.month button {
+
+background-image: linear-gradient(#92dbb6, #11ff00);
+	
+}
+ 
+ .month1 button {
+
+background-image: linear-gradient(#DDDDDD, #AAAAAA);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

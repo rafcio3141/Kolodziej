@@ -1,0 +1,50 @@
+body {
+    padding: 20px;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: capitalize;
+    text-shadow: 3px -1px 0px #ff7bac;
+}
+
+h2,h3 {
+    text-transform: capitalize;
+}
+
+p.author {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+p.note {
+    font-style: italic;
+}
+
+p.intro {
+    text-indent: 20px;
+    letter-spacing: 0.02em
+}
+
+p.intro:first-letter {
+    font-size:200%;
+}
+p.intro:first-line {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+a:visited {
+    color: aquamarine;
+}

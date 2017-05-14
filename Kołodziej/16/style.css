@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ 
+body{
+ margin: 0;
+ padding: 0;
+ }
+ 
+footer {
+ background-image: url(image.jpg);
+ }
+ 
+#footer_container {
+ max-width: 940px;
+ height: 100px;
+ margin: 0 auto;
+ padding-top: 2%;
+ }
+ 
+.social {
+ list-style:none;
+ }
+ 
+.social li a {
+ font-family: 'Permanent Marker', cursive;
+ font-size:20px;
+ display:inline;
+ float:right;
+ padding:10px;
+ color:#ff1100;
+ text-decoration: none;
+ -o-transition:.5s;
+ -ms-transition:.5s;
+ -moz-transition:.5s;
+ -webkit-transition:.5s;
+ transition:.5s;
+ }
+ 
+.social li a:hover {
+ color:#ff7bac;
+ }
+ 
+.copyright_text {
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 400;
+ padding-top: 2%;
+ float: left;
+ line-height: 1.5em;
+ letter-spacing: 0.1em;
+ text-transform: uppercase;
+ font-size: 0.65em;
+ color: #ff1100;
+ }

@@ -1,0 +1,35 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding:20 px;
+}
+
+ul {
+    background-color: #51c1f1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+}
+
+a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+a:hover {
+    background-color: #4d4d4d;
+}

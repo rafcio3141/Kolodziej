@@ -1,0 +1,21 @@
+html {
+    background: url(papierek.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.xop-container {
+    max-width: 960px;
+    margin: 0 3rem;
+    float:right;
+}
+
+.p-heading {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 160px;
+    text-shadow: 10px 10px 4px rgba(0,0,0,0.1);
+    text-transform: uppercase;
+	float:right;
+	
+}

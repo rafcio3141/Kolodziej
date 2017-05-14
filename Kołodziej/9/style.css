@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body {
+	margin:0;
+	padding:0;
+	background:#000;
+}
+h1 {
+	margin:0;
+	padding:0;
+}
+
+.text-one {
+	color:white;
+	font-family:font-family: 'Oswald', sans-serif;
+	background: url('m5.jpg')no-repeat -100px;
+	background-size:cover;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	font-size:22vw;
+	text-align:center;
+}
+
+.text-two {
+	color:white;
+	font-family:font-family: 'Oswald', sans-serif;
+	background: url('drake.gif')no-repeat -100px;
+	background-size:cover;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	font-size:22vw;
+	text-align:center;
+}
