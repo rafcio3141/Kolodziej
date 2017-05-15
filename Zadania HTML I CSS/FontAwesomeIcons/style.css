@@ -1,0 +1,43 @@
+body {
+	font-family:Arial, sans-serif;
+	width:960px;
+	margin:0 auto;
+}
+
+
+.button {
+ border: 3px solid #fcad26;
+ border-radius: 50px;
+ color: #fcad26;
+ background-color: white;
+ padding: 15px 35px;
+ margin: 0 10px;
+ text-align: center;
+ text-decoration: none;
+ font-weight: bold;
+ display: inline-block;
+ font-size: 16px;
+ cursor: pointer;
+ transition: all 0.3s;
+}
+
+.button:hover {
+ border-radius: 50px;
+ background: #fcad26;
+ color: #fff;
+}
+.button.cart:after {
+ content: '\f07a';
+ font-family: FontAwesome;
+ padding-left: 10px;
+}
+.button.favorite:after {
+ content: '\f004';
+ font-family: FontAwesome;
+ padding-left: 10px;
+}
+.button.submit:after {
+ content: '\f0e0';
+ font-family: FontAwesome;
+ padding-left: 10px;
+}

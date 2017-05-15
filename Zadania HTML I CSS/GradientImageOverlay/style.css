@@ -1,0 +1,14 @@
+body 
+{
+	width:960px;
+}
+
+.color-image {
+	
+	width:690px;
+	height:460px;
+	
+	background:linear-gradient(rgba(46,179,214,0.60),rgba(67,204,152,0.60)),url(cos.jpg);
+	
+	
+}
